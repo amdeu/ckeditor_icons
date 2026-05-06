@@ -3,7 +3,7 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'CKEditor 5: Icons Plugin',
     'description' => 'Adds an icon dropdown to CKEditor in TYPO3.',
-    'version' => '0.2.5',
+    'version' => '0.2.6',
     'state' => 'stable',
     'category' => 'be',
     'author' => 'Amadeus Kiener',
