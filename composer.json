@@ -1,5 +1,5 @@
 {
-  "name": "oliveoilexpert/ckeditor-icons",
+  "name": "amdeu/ckeditor-icons",
   "type": "typo3-cms-extension",
   "description": "Adds an icon dropdown to CKEditor in TYPO3.",
   "version": "0.2.5",
