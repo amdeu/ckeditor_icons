@@ -38,6 +38,7 @@ export default class Icons extends Plugin {
             ...model.schema.getDefinition('$text').allowAttributes,
             'class',
             'htmlA',
+            'htmlSpan'
         ];
         const styles = [
             { tag: 'strong', attribute: 'bold' },
@@ -50,7 +51,7 @@ export default class Icons extends Plugin {
         model.schema.register('iconTag', {
             allowWhere: '$text',
             isInline: true,
-            isObject: false,
+            isObject: true,
             allowAttributes
         });
         editor.conversion.for('upcast')
